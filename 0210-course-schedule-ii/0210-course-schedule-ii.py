@@ -3,9 +3,9 @@ class Solution:
         graph = defaultdict(list)
         in_degree = [0] * numCourses
         
-        for dest, src in prerequisites:
-            graph[src].append(dest)
-            in_degree[dest] += 1
+        for a, b in prerequisites:
+            in_degree[a] += 1
+            graph[b].append(a)
             
         queue = deque([i for i in range(numCourses) if in_degree[i] == 0])
         
@@ -18,7 +18,9 @@ class Solution:
                 in_degree[neighbour] -= 1
                 if in_degree[neighbour] == 0:
                     queue.append(neighbour)
+                    
         if len(order) == numCourses:
             return order
         else:
-            []
+            return []
+            
