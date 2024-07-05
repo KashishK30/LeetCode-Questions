@@ -19,7 +19,4 @@ class Solution:
                 if in_degree[neighbour] == 0:
                     queue.append(neighbour)
                     
-        if processed_courses == numCourses:
-            return True
-        else:
-            return False
+        return processed_courses == numCourses
