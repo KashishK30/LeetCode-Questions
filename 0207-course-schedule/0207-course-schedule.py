@@ -9,17 +9,17 @@ class Solution:
             
         queue = deque([i for i in range(numCourses) if in_degree[i] == 0])
         
-        order = []
+        processed_courses = 0
         
         while queue:
             course = queue.popleft()
-            order.append(course)
+            processed_courses += 1
             for neighbour in graph[course]:
                 in_degree[neighbour] -= 1
                 if in_degree[neighbour] == 0:
                     queue.append(neighbour)
                     
-        if len(order) == numCourses:
+        if processed_courses == numCourses:
             return True
         else:
             return False
