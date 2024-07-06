@@ -19,4 +19,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/KashishK30/LeetCode-Questions/tree/master/0547-number-of-provinces) |
+## Math
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/KashishK30/LeetCode-Questions/tree/master/2645-pass-the-pillow) |
+## Simulation
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/KashishK30/LeetCode-Questions/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
