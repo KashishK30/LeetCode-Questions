@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/KashishK30/LeetCode-Questions/tree/master/0547-number-of-provinces) |
+| [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
@@ -27,4 +28,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2645-pass-the-pillow](https://github.com/KashishK30/LeetCode-Questions/tree/master/2645-pass-the-pillow) |
+## Array
+|  |
+| ------- |
+| [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
+## Matrix
+|  |
+| ------- |
+| [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 <!---LeetCode Topics End-->
