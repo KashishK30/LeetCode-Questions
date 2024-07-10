@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 ## Hash Table
 |  |
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
 | [0127-word-ladder](https://github.com/KashishK30/LeetCode-Questions/tree/master/0127-word-ladder) |
 | [1720-crawler-log-folder](https://github.com/KashishK30/LeetCode-Questions/tree/master/1720-crawler-log-folder) |
 ## Stack
@@ -115,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
