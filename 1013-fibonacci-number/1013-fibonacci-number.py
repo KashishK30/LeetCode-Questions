@@ -1,4 +1,5 @@
 class Solution:
+    # Iterative approach (Bottom-Up)
     def fib(self, n: int) -> int:
         if n <= 1:
             return n
