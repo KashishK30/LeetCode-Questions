@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/KashishK30/LeetCode-Questions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/KashishK30/LeetCode-Questions/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
 ## Breadth-First Search
 |  |
@@ -20,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/KashishK30/LeetCode-Questions/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/KashishK30/LeetCode-Questions/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
 ## Union Find
@@ -34,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0547-number-of-provinces](https://github.com/KashishK30/LeetCode-Questions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/KashishK30/LeetCode-Questions/tree/master/0801-is-graph-bipartite) |
+| [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
 ## Math
 |  |
 | ------- |
@@ -104,4 +107,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/KashishK30/LeetCode-Questions/tree/master/1046-max-consecutive-ones-iii) |
+## Topological Sort
+|  |
+| ------- |
+| [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
 <!---LeetCode Topics End-->
