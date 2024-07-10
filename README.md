@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
 | [0130-surrounded-regions](https://github.com/KashishK30/LeetCode-Questions/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
@@ -111,4 +112,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
