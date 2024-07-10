@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/KashishK30/LeetCode-Questions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
+| [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 ## Hash Table
@@ -129,5 +131,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
