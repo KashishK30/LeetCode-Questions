@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/KashishK30/LeetCode-Questions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/KashishK30/LeetCode-Questions/tree/master/2645-pass-the-pillow) |
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -84,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
+| [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -123,4 +126,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
