@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
 | [0130-surrounded-regions](https://github.com/KashishK30/LeetCode-Questions/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
+| [0039-combination-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
