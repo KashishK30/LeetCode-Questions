@@ -1,4 +1,5 @@
 class Solution:
+    # Space Optimization
     def rob(self, nums: List[int]) -> int:
         if not nums:
             return 0
