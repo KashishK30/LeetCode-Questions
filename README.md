@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
 | [0130-surrounded-regions](https://github.com/KashishK30/LeetCode-Questions/tree/master/0130-surrounded-regions) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/KashishK30/LeetCode-Questions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/KashishK30/LeetCode-Questions/tree/master/1046-max-consecutive-ones-iii) |
 ## Sliding Window
 |  |
