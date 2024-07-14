@@ -1,18 +1,33 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        if not triangle or not triangle[0]:
-            return 0
+        ## MEMOIZATION
+        # n = len(triangle)
+        # memo = {}
 
-        m = len(triangle)
+        # def dfs(row, col):
+        #     if row == n - 1:
+        #         return triangle[row][col]
+        #     if (row, col) in memo:
+        #         return memo[(row, col)]
+            
+        #     left = dfs(row + 1, col)
+        #     right = dfs(row + 1, col + 1)
+        #     memo[(row, col)] = triangle[row][col] + min(left, right)
+        #     return memo[(row, col)]
+        # return dfs(0, 0)
 
-        if m == 0:
-            return 0
-        if m == 1:
-            return triangle[0][0]
+        ## TABULATION
+        n = len(triangle)
+        dp = [[0] * len(row) for row in triangle]
+
+        for col in range(len(triangle[-1])):
+            dp[-1][col] = triangle[-1][col]
         
-        for row in range(m - 2, -1, -1 ):
-            for column in range(len(triangle[row])):
-                triangle[row][column] = triangle[row][column] + min(triangle[row + 1][column], triangle[row + 1][column + 1])
-        return triangle[0][0]
+        for row in range(n - 2, -1, -1):
+            for col in range(len(triangle[row])):
+                dp[row][col] = triangle[row][col] + min(dp[row + 1][col], dp[row + 1][col + 1])
+        return dp[0][0]
+
+
         
             
