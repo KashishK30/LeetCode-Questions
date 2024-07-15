@@ -74,4 +74,6 @@ class Solution:
         
         return min(prev)
 
+        # TC: O(m*n), SC: O(N)
+
 
