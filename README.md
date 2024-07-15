@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
 | [0907-koko-eating-bananas](https://github.com/KashishK30/LeetCode-Questions/tree/master/0907-koko-eating-bananas) |
+| [0967-minimum-falling-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/KashishK30/LeetCode-Questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/KashishK30/LeetCode-Questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -88,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/KashishK30/LeetCode-Questions/tree/master/0130-surrounded-regions) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
+| [0967-minimum-falling-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
 ## Recursion
@@ -111,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/KashishK30/LeetCode-Questions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
+| [0967-minimum-falling-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 ## Hash Table
 |  |
