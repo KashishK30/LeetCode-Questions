@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/KashishK30/LeetCode-Questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
+| [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/KashishK30/LeetCode-Questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Breadth-First Search
 |  |
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/KashishK30/LeetCode-Questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/KashishK30/LeetCode-Questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
+| [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/KashishK30/LeetCode-Questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1720-crawler-log-folder](https://github.com/KashishK30/LeetCode-Questions/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/KashishK30/LeetCode-Questions/tree/master/1803-average-waiting-time) |
@@ -123,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0127-word-ladder](https://github.com/KashishK30/LeetCode-Questions/tree/master/0127-word-ladder) |
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
+| [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## String
 |  |
@@ -194,11 +197,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/KashishK30/LeetCode-Questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Binary Tree
 |  |
 | ------- |
+| [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/KashishK30/LeetCode-Questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
