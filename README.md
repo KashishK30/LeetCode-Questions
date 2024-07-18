@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/KashishK30/LeetCode-Questions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0494-target-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/KashishK30/LeetCode-Questions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [0967-minimum-falling-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
@@ -176,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
+| [0494-target-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
