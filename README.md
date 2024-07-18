@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/KashishK30/LeetCode-Questions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0213-house-robber-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0416-partition-equal-subset-sum) |
+| [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
 | [0540-single-element-in-a-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KashishK30/LeetCode-Questions/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Combinatorics
 |  |
@@ -192,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
 | [2846-robot-collisions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2846-robot-collisions) |
 ## Tree
@@ -206,4 +209,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/KashishK30/LeetCode-Questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
+## Two Pointers
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
