@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/KashishK30/LeetCode-Questions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/KashishK30/LeetCode-Questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
+| [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Math
 |  |
 | ------- |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/KashishK30/LeetCode-Questions/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2846-robot-collisions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2846-robot-collisions) |
 ## Matrix
 |  |
@@ -102,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KashishK30/LeetCode-Questions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Recursion
 |  |
 | ------- |
@@ -176,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
+| [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Backtracking
 |  |
 | ------- |
