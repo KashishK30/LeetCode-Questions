@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0062-unique-paths](https://github.com/KashishK30/LeetCode-Questions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
+| [0670-maximum-swap](https://github.com/KashishK30/LeetCode-Questions/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1642-water-bottles](https://github.com/KashishK30/LeetCode-Questions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -205,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
+| [0670-maximum-swap](https://github.com/KashishK30/LeetCode-Questions/tree/master/0670-maximum-swap) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KashishK30/LeetCode-Questions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KashishK30/LeetCode-Questions/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Combinatorics
