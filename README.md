@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/KashishK30/LeetCode-Questions/tree/master/0733-flood-fill) |
@@ -142,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/KashishK30/LeetCode-Questions/tree/master/0127-word-ladder) |
+| [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/KashishK30/LeetCode-Questions/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -163,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/KashishK30/LeetCode-Questions/tree/master/1720-crawler-log-folder) |
@@ -267,4 +270,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0948-sort-an-array) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
