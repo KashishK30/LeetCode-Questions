@@ -184,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/KashishK30/LeetCode-Questions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
+| [0937-online-stock-span](https://github.com/KashishK30/LeetCode-Questions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/KashishK30/LeetCode-Questions/tree/master/0943-sum-of-subarray-minimums) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/KashishK30/LeetCode-Questions/tree/master/1720-crawler-log-folder) |
@@ -300,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/KashishK30/LeetCode-Questions/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/KashishK30/LeetCode-Questions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
+| [0937-online-stock-span](https://github.com/KashishK30/LeetCode-Questions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/KashishK30/LeetCode-Questions/tree/master/0943-sum-of-subarray-minimums) |
 ## Shortest Path
 |  |
@@ -309,4 +311,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+## Design
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/KashishK30/LeetCode-Questions/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/KashishK30/LeetCode-Questions/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
