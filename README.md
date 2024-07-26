@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/KashishK30/LeetCode-Questions/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/KashishK30/LeetCode-Questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Math
 |  |
@@ -141,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0967-minimum-falling-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/KashishK30/LeetCode-Questions/tree/master/1250-longest-common-subsequence) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Hash Table
 |  |
 | ------- |
@@ -279,4 +281,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/KashishK30/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
+## Shortest Path
+|  |
+| ------- |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 <!---LeetCode Topics End-->
