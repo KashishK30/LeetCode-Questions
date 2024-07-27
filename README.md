@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
 | [0670-maximum-swap](https://github.com/KashishK30/LeetCode-Questions/tree/master/0670-maximum-swap) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/KashishK30/LeetCode-Questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1642-water-bottles](https://github.com/KashishK30/LeetCode-Questions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/KashishK30/LeetCode-Questions/tree/master/2645-pass-the-pillow) |
@@ -95,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/KashishK30/LeetCode-Questions/tree/master/1333-sort-the-jumbled-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/KashishK30/LeetCode-Questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/KashishK30/LeetCode-Questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KashishK30/LeetCode-Questions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/KashishK30/LeetCode-Questions/tree/master/1720-crawler-log-folder) |
@@ -161,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
 | [0966-binary-subarrays-with-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1370-count-number-of-nice-subarrays](https://github.com/KashishK30/LeetCode-Questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/KashishK30/LeetCode-Questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/KashishK30/LeetCode-Questions/tree/master/2502-sort-the-people) |
@@ -210,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
 | [0966-binary-subarrays-with-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/KashishK30/LeetCode-Questions/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/KashishK30/LeetCode-Questions/tree/master/1370-count-number-of-nice-subarrays) |
 ## Prefix Sum
 |  |
 | ------- |
