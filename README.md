@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/KashishK30/LeetCode-Questions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/KashishK30/LeetCode-Questions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1511-count-number-of-teams](https://github.com/KashishK30/LeetCode-Questions/tree/master/1511-count-number-of-teams) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/KashishK30/LeetCode-Questions/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/KashishK30/LeetCode-Questions/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KashishK30/LeetCode-Questions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/KashishK30/LeetCode-Questions/tree/master/1250-longest-common-subsequence) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1511-count-number-of-teams](https://github.com/KashishK30/LeetCode-Questions/tree/master/1511-count-number-of-teams) |
 ## Hash Table
 |  |
 | ------- |
@@ -347,4 +349,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/KashishK30/LeetCode-Questions/tree/master/0937-online-stock-span) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [1511-count-number-of-teams](https://github.com/KashishK30/LeetCode-Questions/tree/master/1511-count-number-of-teams) |
 <!---LeetCode Topics End-->
