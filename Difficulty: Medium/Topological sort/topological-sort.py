@@ -4,34 +4,41 @@ class Solution:
     #Function to return list containing vertices in Topological order.
     def topoSort(self, V, adj):
         # Code here
+
+        # Kahn's Algorithm (BFS-based approach)
+        
+        # 1. Compute in-degree
+        # 2. Queue with indegree 0
+        # 3. while queue is non empty
+        # deque a vertex u and add it to topo order
+        # For each adj vertex v of u reduce it's indegree by 1
+        # If v's indegree becomes 0, enqueue v
+        # 4. If the topo order contains all vertices : True
         in_degree = [0] * V
+        
         for i in range(V):
             for j in adj[i]:
                 in_degree[j] += 1
         
-        queue = deque()
-        for i in range(V):
-            if in_degree[i] == 0:
-                queue.append(i)
+        queue = deque([i for i in range(V) if in_degree[i] == 0])
         
-        topological_order = []
+        topo_order = []
         
         while queue:
             node = queue.popleft()
-            topological_order.append(node)
-            for neighbour in adj[node]:
-                in_degree[neighbour] -= 1
-                if in_degree[neighbour] == 0:
-                    queue.append(neighbour)
+            topo_order.append(node)
+            
+            for neighbor in adj[node]:
+                in_degree[neighbor] -= 1
+                if in_degree[neighbor] == 0:
+                    queue.append(neighbor)
         
-        if len(topological_order) != V:
+        if len(topo_order) == V:
+            return topo_order
+        else:
             return []
+                
         
-        return topological_order
-        
-        
-        
-
 
 #{ 
  # Driver Code Starts
