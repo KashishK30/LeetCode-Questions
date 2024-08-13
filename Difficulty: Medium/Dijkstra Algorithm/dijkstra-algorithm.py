@@ -6,27 +6,22 @@ class Solution:
     #from the source vertex S.
     def dijkstra(self, V, adj, S):
         #code here
-        distances = [float('inf')] * V
-        distances[S] = 0
+        dist = [float('inf')] * V
+        dist[S] = 0
+        priority_queue = [(0, S)]
         
-        min_heap = [(0, S)]
-        
-        while min_heap:
-            current_distance, u = heapq.heappop(min_heap)
+        while priority_queue:
+            current_dist, u = heapq.heappop(priority_queue)
             
-            if current_distance > distances[u]:
+            if current_dist > dist[u]:
                 continue
             
-            for neighbour in adj[u]:
-                v, weight = neighbour
-                distance = current_distance + weight
-                
-                if distance < distances[v]:
-                    distances[v] = distance
-                    heapq.heappush(min_heap, (distance, v))
-                    
-        return distances  
-
+            for v, weight in adj[u]:
+                if weight + dist[u] < dist[v]:
+                    dist[v] = weight + dist[u]
+                    heapq.heappush(priority_queue, (dist[v], v))
+        
+        return dist
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
