@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Union Find
 |  |
 | ------- |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/KashishK30/LeetCode-Questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/KashishK30/LeetCode-Questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1207-delete-nodes-and-return-forest](https://github.com/KashishK30/LeetCode-Questions/tree/master/1207-delete-nodes-and-return-forest) |
 | [1333-sort-the-jumbled-numbers](https://github.com/KashishK30/LeetCode-Questions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/KashishK30/LeetCode-Questions/tree/master/1370-count-number-of-nice-subarrays) |
@@ -141,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0967-minimum-falling-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/KashishK30/LeetCode-Questions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/KashishK30/LeetCode-Questions/tree/master/1073-number-of-enclaves) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/KashishK30/LeetCode-Questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KashishK30/LeetCode-Questions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Recursion
