@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/KashishK30/LeetCode-Questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/KashishK30/LeetCode-Questions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Math
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/KashishK30/LeetCode-Questions/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/KashishK30/LeetCode-Questions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/KashishK30/LeetCode-Questions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Hash Table
 |  |
 | ------- |
@@ -282,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/KashishK30/LeetCode-Questions/tree/master/0820-find-eventual-safe-states) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/KashishK30/LeetCode-Questions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 ## Backtracking
 |  |
@@ -407,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/KashishK30/LeetCode-Questions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/KashishK30/LeetCode-Questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [2090-number-of-ways-to-arrive-at-destination](https://github.com/KashishK30/LeetCode-Questions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Monotonic Queue
 |  |
