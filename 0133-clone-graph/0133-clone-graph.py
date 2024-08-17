@@ -12,19 +12,41 @@ class Solution:
         if not node:
             return None
 
-        cloned_nodes = {}
+        old_to_new = {}
 
-        def dfs(curr_node):
-            if curr_node in cloned_nodes:
-                return cloned_nodes[curr_node]
+        queue = deque([node])
+
+        old_to_new[node] = Node(node.val)
+
+        while queue:
+            current = queue.popleft()
+
+            for neighbor in current.neighbors:
+                if neighbor not in old_to_new:
+                    old_to_new[neighbor] = Node(neighbor.val)
+
+                    queue.append(neighbor)
+
+                old_to_new[current].neighbors.append(old_to_new[neighbor])
             
-            clone = Node(curr_node.val)
-            cloned_nodes[curr_node] = clone
+        return old_to_new[node]
 
-            for neighbor in curr_node.neighbors:
-                clone.neighbors.append(dfs(neighbor))
+        # if not node:
+        #     return None
 
-            return clone
+        # cloned_nodes = {}
+
+        # def dfs(curr_node):
+        #     if curr_node in cloned_nodes:
+        #         return cloned_nodes[curr_node]
+            
+        #     clone = Node(curr_node.val)
+        #     cloned_nodes[curr_node] = clone
+
+        #     for neighbor in curr_node.neighbors:
+        #         clone.neighbors.append(dfs(neighbor))
+
+        #     return clone
         
-        return dfs(node)
+        # return dfs(node)
         
