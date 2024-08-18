@@ -1,5 +1,4 @@
 import heapq
-
 class Solution:
 
     #Function to find the shortest distance of all the vertices
@@ -8,20 +7,25 @@ class Solution:
         #code here
         dist = [float('inf')] * V
         dist[S] = 0
-        priority_queue = [(0, S)]
         
-        while priority_queue:
-            current_dist, u = heapq.heappop(priority_queue)
+        pq = [(0, S)]
+        
+        while pq:
+            current_dist, u = heapq.heappop(pq)
             
             if current_dist > dist[u]:
                 continue
             
-            for v, weight in adj[u]:
-                if weight + dist[u] < dist[v]:
-                    dist[v] = weight + dist[u]
-                    heapq.heappush(priority_queue, (dist[v], v))
-        
+            for neighbor, weight in adj[u]:
+                distance = weight + current_dist
+                
+                if dist[neighbor] > distance:
+                    dist[neighbor] = distance
+                    heapq.heappush(pq, (distance, neighbor))
         return dist
+            
+        
+
 #{ 
  # Driver Code Starts
 #Initial Template for Python 3
