@@ -4,25 +4,26 @@ class Solution:
 	def shortest_distance(self, matrix):
 		#Code here
         n = len(matrix)
-        INF = float('inf')
+        INF = 10**9 
         
         for i in range(n):
             for j in range(n):
                 if matrix[i][j] == -1 and i != j:
                     matrix[i][j] = INF
-                elif i == j:
-                    matrix[i][j] = 0
-                    
+        
         for k in range(n):
             for i in range(n):
                 for j in range(n):
-                    matrix[i][j] = min(matrix[i][j], matrix[i][k] + matrix[k][j])
+                    if matrix[i][j] > matrix[i][k] + matrix[k][j]:
+                        matrix[i][j] = matrix[i][k] + matrix[k][j]
         
         for i in range(n):
             for j in range(n):
                 if matrix[i][j] == INF:
                     matrix[i][j] = -1
-                    
+        
+        return matrix
+
 #{ 
  # Driver Code Starts
 #Initial template for Python 
