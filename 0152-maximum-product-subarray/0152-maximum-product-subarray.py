@@ -17,3 +17,6 @@ class Solution:
             result = max(max_prod, result)
         
         return result
+
+        ## TC: O(n)
+        ## SC: O(1)
