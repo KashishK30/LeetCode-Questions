@@ -264,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/KashishK30/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
 | [0402-remove-k-digits](https://github.com/KashishK30/LeetCode-Questions/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0678-valid-parenthesis-string](https://github.com/KashishK30/LeetCode-Questions/tree/master/0678-valid-parenthesis-string) |
@@ -367,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/KashishK30/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/KashishK30/LeetCode-Questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0543-diameter-of-binary-tree) |
@@ -389,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/KashishK30/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/KashishK30/LeetCode-Questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0543-diameter-of-binary-tree) |
@@ -458,6 +461,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/KashishK30/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
 | [0937-online-stock-span](https://github.com/KashishK30/LeetCode-Questions/tree/master/0937-online-stock-span) |
 ## Data Stream
 |  |
@@ -475,9 +479,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/KashishK30/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/KashishK30/LeetCode-Questions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/KashishK30/LeetCode-Questions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/KashishK30/LeetCode-Questions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/KashishK30/LeetCode-Questions/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
