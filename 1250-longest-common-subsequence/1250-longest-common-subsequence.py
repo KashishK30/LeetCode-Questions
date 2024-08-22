@@ -14,6 +14,9 @@ class Solution:
                     dp[i][j] = max(dp[i][j - 1], dp[i - 1][j])
         return dp[m][n]
 
+        ## TC: O(m * n)
+        ## SC: O(min(m, n)) 
+
         ## Memoization
         # m = len(text1)
         # n = len(text2)
