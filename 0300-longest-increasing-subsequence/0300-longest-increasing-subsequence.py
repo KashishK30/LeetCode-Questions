@@ -11,40 +11,41 @@ class Solution:
         # take = 1 + f(ind + 1, ind)
         # return max(take, not_take)
 
-        ## Dynamic Programming
-        # if not nums:
-        #     return 0
+        # Dynamic Programming
+        if not nums:
+            return 0
         
-        # n = len(nums)
-        # dp = [1] * n
+        n = len(nums)
+        dp = [1] * n
 
-        # for i in range(1, n):
-        #     for j in range(i):
-        #         if nums[i] > nums[j]:
-        #             dp[i] = max(dp[i], dp[j] + 1)
-        # return dp[n - 1]
+        for i in range(1, n):
+            for j in range(i):
+                if nums[i] > nums[j]:
+                    dp[i] = max(dp[i], dp[j] + 1)
+        return max(dp)
 
         ## Memoization
-        n = len(nums)
-        dp = [[-1] * (n + 1) for _ in range(n)]
 
-        def helper(ind, pre_ind):
-            if ind == n:
-                return 0
+        # n = len(nums)
+        # dp = [[-1] * (n + 1) for _ in range(n)]
+
+        # def helper(ind, pre_ind):
+        #     if ind == n:
+        #         return 0
             
-            if dp[ind][pre_ind + 1] != -1:
-                return dp[ind][pre_ind + 1]
+        #     if dp[ind][pre_ind + 1] != -1:
+        #         return dp[ind][pre_ind + 1]
 
-            not_take = helper(ind + 1, pre_ind)
+        #     not_take = helper(ind + 1, pre_ind)
 
-            take = 0
-            if pre_ind == -1 or nums[ind] > nums[pre_ind]:
-                take = 1 + helper(ind + 1, ind)
+        #     take = 0
+        #     if pre_ind == -1 or nums[ind] > nums[pre_ind]:
+        #         take = 1 + helper(ind + 1, ind)
             
-            dp[ind][pre_ind + 1] = max(take, not_take)
+        #     dp[ind][pre_ind + 1] = max(take, not_take)
 
-            return dp[ind][pre_ind + 1]
-        return helper(0, -1)
+        #     return dp[ind][pre_ind + 1]
+        # return helper(0, -1)
 
             
 
