@@ -203,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/KashishK30/LeetCode-Questions/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/KashishK30/LeetCode-Questions/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -248,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/KashishK30/LeetCode-Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/0022-generate-parentheses) |
+| [0072-edit-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/0072-edit-distance) |
 | [0127-word-ladder](https://github.com/KashishK30/LeetCode-Questions/tree/master/0127-word-ladder) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/KashishK30/LeetCode-Questions/tree/master/0402-remove-k-digits) |
