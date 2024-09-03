@@ -11,8 +11,7 @@ class Solution:
 
         prev = [False] * (target + 1)
 
-        for i in range(1, target + 1):
-            prev[0] = True
+        prev[0] = True
         
         for i in range(1, n):
             curr = [False] * (target + 1)
