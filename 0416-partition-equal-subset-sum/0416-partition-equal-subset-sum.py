@@ -1,42 +1,94 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
-        ## SPACE OPTIMIZATION
-
-        target = sum(nums) // 2
+        # Tabulation
         n = len(nums)
-
-        if sum(nums) % 2 != 0:
+        total_sum = sum(nums)
+        
+        if total_sum % 2 != 0:
             return False
         
-        dp = [False] * (target + 1)
-        dp[0] = True
+        target = total_sum // 2
+
+        dp = [[False for _ in range(target + 1)] for _ in range(n)]
+
+        for i in range(1, n):
+            dp[i][0] = True
+
+        if nums[0] <= target:
+            dp[0][nums[0]] = True
         
-        for num in nums:
-            for j in range(target, num - 1, -1):
-                dp[j] = dp[j] or dp[j - num]
-        return dp[target]
+        for i in range(1, n):
+            for j in range(1, target + 1):
+                notTake = dp[i - 1][j]
 
-        # TC: O(N*target), SC: O(target)
+                take = False
+                if nums[i] <= j:
+                    take = dp[i - 1][j - nums[i]]
+                dp[i][j] = take or notTake
+        
+        return dp[n - 1][target]
 
-        ## TABULATION
 
+
+        # # Memoization
         # n = len(nums)
-
-        # if sum(nums) % 2 != 0:
-        #     return False
-        # target = sum(nums) // 2
-
-        # dp = [[False] * (target + 1) for _ in range(n + 1)]
+        # total_sum = sum(nums)
         
-        # for i in range(n + 1):
-        #     dp[i][0] =  True
-            
-        # for i in range(1, n + 1):
-        #     for j in range(1, target + 1):
-        #         if j >= nums[i - 1]:
-        #             dp[i][j] = dp[i  - 1][j] or dp[i - 1][j - nums[i - 1]]
-        #         else:
-        #             dp[i][j] = dp[i - 1][j]
-        # return dp[n][target]
+        # dp = [[-1 for _ in range(total_sum + 1)] for _ in range(n)]
 
-        # # TC: O(n * target)
+        # def memoization(ind, target):
+        #     # Base cases
+        #     if target == 0:
+        #         return True
+            
+        #     if ind == 0:
+        #         return nums[ind] == 0
+
+        #     if dp[ind][target] != -1:
+        #         return dp[ind][target]
+            
+        #     notTake = memoization(ind - 1, target)
+        #     take = False
+        #     if nums[ind] <= target:
+        #         take =  memoization(ind - 1, target - nums[ind])
+
+        #     dp[ind][target] = take or notTake
+        #     return dp[ind][target]
+
+        # if total_sum % 2 != 0:
+        #     return False
+        
+        # target = total_sum // 2
+        # return memoization(n - 1, target)
+
+        # # TC: O(n * target) + O(n)
+        # # SC: O(n * target) + O(n)
+
+
+        # # Recursion
+        # def Recursion(ind, target):
+        #     # Base cases
+        #     if target == 0:
+        #         return True
+        #     if ind == 0:
+        #         return nums[0] == target
+            
+        #     # Exclude the current element
+        #     notTake = Recursion(ind - 1, target)
+
+        #     take = False
+        #     if nums[ind] <= target:
+        #         take = Recursion(ind - 1, target - nums[ind])
+            
+        #     return take or notTake
+
+        # total_sum = sum(nums)
+        # if total_sum % 2 != 0:
+        #     return False
+        
+        # target = total_sum // 2
+        # n = len(nums)
+        # return Recursion(n - 1, target)
+
+        # # TC: O(2^n) + O(n)
+        # # SC: O(n)
