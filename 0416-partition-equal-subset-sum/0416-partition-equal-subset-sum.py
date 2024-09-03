@@ -12,6 +12,9 @@ class Solution:
         prev = [False] * (target + 1)
 
         prev[0] = True
+
+        if nums[0] <= target:
+            prev[nums[0]] = True
         
         for i in range(1, n):
             curr = [False] * (target + 1)
