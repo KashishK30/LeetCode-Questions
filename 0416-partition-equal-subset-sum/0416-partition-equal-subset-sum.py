@@ -1,34 +1,65 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
-        # Tabulation
+        # Space Optimization
         n = len(nums)
         total_sum = sum(nums)
-        
+
         if total_sum % 2 != 0:
             return False
         
         target = total_sum // 2
 
-        dp = [[False for _ in range(target + 1)] for _ in range(n)]
+        prev = [False] * (target + 1)
 
-        for i in range(1, n):
-            dp[i][0] = True
-
-        if nums[0] <= target:
-            dp[0][nums[0]] = True
+        for i in range(1, target + 1):
+            prev[0] = True
         
         for i in range(1, n):
+            curr = [False] * (target + 1)
+            curr[0] = True
             for j in range(1, target + 1):
-                notTake = dp[i - 1][j]
-
+                notTake = prev[j]
                 take = False
                 if nums[i] <= j:
-                    take = dp[i - 1][j - nums[i]]
-                dp[i][j] = take or notTake
+                    take = prev[j - nums[i]]
+                curr[j] = take or notTake
+            prev = curr
         
-        return dp[n - 1][target]
+        return prev[target]
 
+        # TC: O(n * target) + O(n)
+        # SC: O(target)
 
+        # # Tabulation
+        # n = len(nums)
+        # total_sum = sum(nums)
+        
+        # if total_sum % 2 != 0:
+        #     return False
+        
+        # target = total_sum // 2
+
+        # dp = [[False for _ in range(target + 1)] for _ in range(n)]
+
+        # for i in range(1, n):
+        #     dp[i][0] = True
+
+        # if nums[0] <= target:
+        #     dp[0][nums[0]] = True
+        
+        # for i in range(1, n):
+        #     for j in range(1, target + 1):
+        #         notTake = dp[i - 1][j]
+
+        #         take = False
+        #         if nums[i] <= j:
+        #             take = dp[i - 1][j - nums[i]]
+        #         dp[i][j] = take or notTake
+        
+        # return dp[n - 1][target]
+
+        # # TC: O(n * target) + O(n)
+        # # SC: O(n * target)
 
         # # Memoization
         # n = len(nums)
