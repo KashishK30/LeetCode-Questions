@@ -25,6 +25,9 @@ class Solution:
 
         return (m + n) - (2 * lcs)
 
+        # TC: O(m * n)
+        # SC: O(n)
+
 
         # # Tabulation
 
