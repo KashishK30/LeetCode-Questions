@@ -225,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0967-minimum-falling-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/KashishK30/LeetCode-Questions/tree/master/1250-longest-common-subsequence) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/KashishK30/LeetCode-Questions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1511-count-number-of-teams](https://github.com/KashishK30/LeetCode-Questions/tree/master/1511-count-number-of-teams) |
@@ -260,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
 | [1250-longest-common-subsequence](https://github.com/KashishK30/LeetCode-Questions/tree/master/1250-longest-common-subsequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/KashishK30/LeetCode-Questions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/KashishK30/LeetCode-Questions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/KashishK30/LeetCode-Questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1720-crawler-log-folder](https://github.com/KashishK30/LeetCode-Questions/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/KashishK30/LeetCode-Questions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
