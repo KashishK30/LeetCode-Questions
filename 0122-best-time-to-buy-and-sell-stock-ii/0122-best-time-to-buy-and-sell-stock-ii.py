@@ -5,24 +5,45 @@ class Solution:
         if n == 0:
             return 0
         
-        ahead = [0, 0]
-        curr = [0, 0]
+        aheadBuy = -prices[0]
+        aheadNotBuy = 0
 
-        ahead[0] = ahead[1] = 0
+        for i in range(1, n):
+            currBuy = max(-prices[i] + aheadNotBuy, 0 + aheadBuy)
+        
+            currNotBuy = max(+prices[i] + aheadBuy, 0 + aheadNotBuy)
+                
+            aheadBuy = currBuy
+            aheadNotBuy = currNotBuy
 
-        for i in range(n - 1, -1, -1):
-            for j in range(2):
-                profit = 0
+        return aheadNotBuy
 
-                if j == 0: # Can buy
-                    profit = max(-prices[i] + ahead[1], 0 + ahead[0])
-                elif j == 1: # Can sell
-                    profit = max(+prices[i] + ahead[0], 0 + ahead[1])
-                curr[j] = profit
-            ahead = curr
-        return curr[0]
-        # TC: O(n * 2)
-        # SC: O(2)
+        # TC: O(n)
+        # SC: O(1)
+
+        # # Space Optimization
+        # n = len(prices)
+        # if n == 0:
+        #     return 0
+        
+        # ahead = [0, 0]
+        # curr = [0, 0]
+
+        # ahead[0] = ahead[1] = 0
+
+        # for i in range(n - 1, -1, -1):
+        #     for j in range(2):
+        #         profit = 0
+
+        #         if j == 0: # Can buy
+        #             profit = max(-prices[i] + ahead[1], 0 + ahead[0])
+        #         elif j == 1: # Can sell
+        #             profit = max(+prices[i] + ahead[0], 0 + ahead[1])
+        #         curr[j] = profit
+        #     ahead = curr
+        # return curr[0]
+        # # TC: O(n * 2)
+        # # SC: O(2)
 
         # # Tabulation
         # n = len(prices)
