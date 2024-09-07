@@ -36,6 +36,9 @@ class Solution:
 
         return "".join(result)
 
+        # TC: O(n * m)
+        # SC: O(n)
+
         # # Tabulation
 
         # m = len(str1)
