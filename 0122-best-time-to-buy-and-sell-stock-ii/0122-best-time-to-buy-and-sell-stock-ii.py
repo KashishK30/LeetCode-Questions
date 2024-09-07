@@ -19,8 +19,8 @@ class Solution:
                 elif j == 1: # Can sell
                     profit = max(+prices[i] + ahead[0], 0 + ahead[1])
                 curr[j] = profit
-            curr, ahead = ahead, curr
-        return ahead[0]
+            ahead = curr
+        return curr[0]
 
         # # Tabulation
         # n = len(prices)
