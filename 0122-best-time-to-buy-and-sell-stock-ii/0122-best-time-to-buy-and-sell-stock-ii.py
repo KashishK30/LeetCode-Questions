@@ -21,6 +21,8 @@ class Solution:
                 curr[j] = profit
             ahead = curr
         return curr[0]
+        # TC: O(n * 2)
+        # SC: O(2)
 
         # # Tabulation
         # n = len(prices)
