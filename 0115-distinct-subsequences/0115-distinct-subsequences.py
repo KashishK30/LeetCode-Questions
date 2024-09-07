@@ -16,6 +16,9 @@ class Solution:
                          
         return prev[n]
 
+        # TC: O(m * n)
+        # SC: O(n)
+
         # # Tabulation
 
         # m = len(s)
