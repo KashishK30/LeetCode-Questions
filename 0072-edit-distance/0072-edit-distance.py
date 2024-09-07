@@ -14,7 +14,7 @@ class Solution:
                     cur[j] = prev[j - 1]
                 else:
                     cur[j] = 1 + min(prev[j - 1], prev[j], cur[j - 1])
-            prev, cur = cur, prev
+            prev, cur = cur, prev # Update prev = curr and prev to new emmty row
 
         return prev[n]
 
@@ -45,7 +45,7 @@ class Solution:
         # return dp[m][n]
 
         ## TC: O(m * n)
-        ## SC: O( m * n)
+        ## SC: O(m * n)
 
         ## Memoization
 
