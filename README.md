@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/KashishK30/LeetCode-Questions/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/KashishK30/LeetCode-Questions/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/KashishK30/LeetCode-Questions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/KashishK30/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/KashishK30/LeetCode-Questions/tree/master/0130-surrounded-regions) |
 | [0135-candy](https://github.com/KashishK30/LeetCode-Questions/tree/master/0135-candy) |
 | [0152-maximum-product-subarray](https://github.com/KashishK30/LeetCode-Questions/tree/master/0152-maximum-product-subarray) |
@@ -210,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/KashishK30/LeetCode-Questions/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/KashishK30/LeetCode-Questions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/KashishK30/LeetCode-Questions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/KashishK30/LeetCode-Questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/KashishK30/LeetCode-Questions/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/KashishK30/LeetCode-Questions/tree/master/0198-house-robber) |
