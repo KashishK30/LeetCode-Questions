@@ -16,6 +16,8 @@ class Solution:
                         curr[buy][cap] = max( + prices[ind] + ahead[0][cap - 1], 0 + ahead[1][cap])
                 ahead = curr[:]
         return ahead[0][k]
+        # TC: O(k * 2)
+        # SC: O(k * 2)
 
         # # Tabulation
 
