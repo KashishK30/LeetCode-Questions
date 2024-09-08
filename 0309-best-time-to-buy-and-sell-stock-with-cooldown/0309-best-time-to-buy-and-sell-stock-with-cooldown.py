@@ -14,8 +14,10 @@ class Solution:
                     curr[buy] = max(+ prices[ind] + next_to_next[0], 0 + ahead[1])
             next_to_next = ahead[:]
             ahead = curr[:]
-            
+
         return ahead[0]
+    # TC: O(n * 2)
+    # SC: O(2)
 
     # # Tabulation
     #     n = len(prices)
