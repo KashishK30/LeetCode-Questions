@@ -12,7 +12,7 @@ class Solution:
                 for k in range(1, 3):
                     if j == 0:
                         dp[i][j][k] = max(-prices[i] + dp[i + 1][1][k], 0 + dp[i + 1][0][k])
-                    elif j == 1:
+                    else:
                         dp[i][j][k] = max(+prices[i] + dp[i + 1][0][k - 1], 0 + dp[i + 1][1][k])
 
         return dp[0][0][2]
