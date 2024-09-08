@@ -1,21 +1,42 @@
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
-        # Tabulation
+        # Space Optimization
+
         n = len(prices)
-
-        if n == 0:
-            return 0
-
-        dp = [[[0 for _ in range(k + 1)] for _ in range(2)] for _ in range(n + 1)]
+        
+        ahead = [[0] * (k + 1) for _ in range(2)]
+        curr = [[0] * (k + 1) for _ in range(2)]
 
         for ind in range(n - 1, -1, -1):
             for buy in range(2):
                 for cap in range(1, k + 1):
                     if buy == 0:
-                        dp[ind][buy][cap] = max(-prices[ind] + dp[ind + 1][1][cap], 0 + dp[ind + 1][0][cap])
+                        curr[buy][cap] = max(-prices[ind] + ahead[1][cap], 0 + ahead[0][cap])
                     else:
-                        dp[ind][buy][cap] = max(+prices[ind] + dp[ind + 1][0][cap - 1], 0 + dp[ind + 1][1][cap])
-        return dp[0][0][k]
+                        curr[buy][cap] = max( + prices[ind] + ahead[0][cap - 1], 0 + ahead[1][cap])
+                ahead = curr[:]
+        return ahead[0][k]
+
+        # # Tabulation
+
+        # n = len(prices)
+
+        # if n == 0:
+        #     return 0
+
+        # dp = [[[0 for _ in range(k + 1)] for _ in range(2)] for _ in range(n + 1)]
+
+        # for ind in range(n - 1, -1, -1):
+        #     for buy in range(2):
+        #         for cap in range(1, k + 1):
+        #             if buy == 0:
+        #                 dp[ind][buy][cap] = max(-prices[ind] + dp[ind + 1][1][cap], 0 + dp[ind + 1][0][cap])
+        #             else:
+        #                 dp[ind][buy][cap] = max(+prices[ind] + dp[ind + 1][0][cap - 1], 0 + dp[ind + 1][1][cap])
+        # return dp[0][0][k]
+
+        # # TC: O(n * 2 * k)
+        # # SC: O(n * 2 * k)
 
         # # Memoization
 
