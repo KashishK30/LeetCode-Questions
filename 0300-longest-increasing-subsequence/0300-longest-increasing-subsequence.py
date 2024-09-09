@@ -17,7 +17,7 @@ class Solution:
                     take = 1 + ahead[ind + 1]
                 
                 curr[prev_ind + 1] = max(take, notTake)
-            ahead = curr[:]
+            ahead = curr
         return ahead[0]
 
         # TC: O(n * n)
