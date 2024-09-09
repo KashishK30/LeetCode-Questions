@@ -2,22 +2,54 @@ from itertools import combinations
 
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        # Tabulation
+        # Space Optimization
+
         n = len(nums)
+        ahead = [0] * (n + 1)
+        curr = [0] * (n + 1)
 
-        dp = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
+        for ind in range(n -1, -1, -1):
+            for prev_ind in range(n - 1, -2, -1):
+                notTake = 0 + ahead[prev_ind + 1]
 
-        for ind in range(n - 1, -1, -1):
-            for prev_ind in range(ind - 1, -2, -1):
-                notTake = 0 + dp[ind + 1][prev_ind + 1]
                 take = 0
-                if nums[ind] > nums[prev_ind] or prev_ind == -1:
-                    take = 1 + dp[ind + 1][ind + 1]
-                dp[ind][prev_ind + 1] = max(take, notTake)
-        return dp[0][0]
+                if prev_ind == -1 or nums[ind] > nums[prev_ind]:
+                    take = 1 + ahead[ind + 1]
+                
+                curr[prev_ind + 1] = max(take, notTake)
+            ahead = curr[:]
+        return ahead[0]
 
         # TC: O(n * n)
-        # SC: O(n * n) + O(n)
+        # SC: O(n)
+
+        # # Tabulation
+
+        # # dp[i][j] = The length of LIS starting from index 'i',
+        # # where the last index considered till now is 'j - 1'
+        # n = len(nums)
+
+        # # We use n + 1 indices to handle the base case of n o elements
+        # dp = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
+
+        # # Fill the table from bottom-up
+        # for ind in range(n - 1, -1, -1): # Iterate from last element to first
+        #     for prev_ind in range(ind - 1, -2, -1): # Iterate from last element to index -1(prev_ind == -1: no previous element)
+        #         # Option 1: Skip the current element
+        #         notTake = 0 + dp[ind + 1][prev_ind + 1]
+
+        #         # Option 2: take the current element
+        #         take = 0
+
+        #         # if current element > previous element or if it is the 1st element
+        #         if nums[ind] > nums[prev_ind] or prev_ind == -1:
+        #             take = 1 + dp[ind + 1][ind + 1] # curr_ind = ind + 1, prev_ind = ind
+
+        #         dp[ind][prev_ind + 1] = max(take, notTake)
+        # return dp[0][0] # curr_ind = 0, prev_ind = -1
+
+        # # TC: O(n * n)
+        # # SC: O(n * n) + O(n)
 
         # # Memoization
 
