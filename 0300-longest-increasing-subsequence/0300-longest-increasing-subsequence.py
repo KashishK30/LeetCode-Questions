@@ -2,81 +2,54 @@ from itertools import combinations
 
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        ## Brute Force (Exponential time)
-        # Generate all susequesnces of the array then filter out those who are strictly increasing
-        # TC: O(N^2)
-
-        ## Recursive Solution
-        # not take = f(ind + 1, prev_inddex)
-        # take = 1 + f(ind + 1, ind)
-        # return max(take, not_take)
-
-        # Dynamic Programming
-        if not nums:
-            return 0
-        
+        # Tabulation
         n = len(nums)
-        dp = [1] * n
 
-        for i in range(1, n):
-            for j in range(i):
-                if nums[i] > nums[j]:
-                    dp[i] = max(dp[i], dp[j] + 1)
-        return max(dp)
+        dp = [[0 for _ in range(n + 1)] for _ in range(n + 1)]
 
-        ## Memoization
+        for ind in range(n - 1, -1, -1):
+            for prev_ind in range(ind - 1, -2, -1):
+                notTake = 0 + dp[ind + 1][prev_ind + 1]
+                take = 0
+                if nums[ind] > nums[prev_ind] or prev_ind == -1:
+                    take = 1 + dp[ind + 1][ind + 1]
+                dp[ind][prev_ind + 1] = max(take, notTake)
+        return dp[0][0]
+
+        # TC: O(n * n)
+        # SC: O(n * n) + O(n)
+
+        # # Memoization
 
         # n = len(nums)
-        # dp = [[-1] * (n + 1) for _ in range(n)]
+        # # Initialize the dp of size (n + 1) * (n + 1) and fill with -1
+        # dp = [[-1 for _ in range(n + 1)] for _ in range(n + 1)]
 
-        # def helper(ind, pre_ind):
+        # def memoization(ind, prev_ind):
+        #     # Base case: If we have traversed all the elements no more subsequences can be formed
         #     if ind == n:
         #         return 0
+
+        #     # if already computed, use it
+        #     if dp[ind][prev_ind + 1] != -1: # prev + 1 to avoid accesing dp[ind][-1]
+        #         return dp[ind][prev_ind + 1] 
             
-        #     if dp[ind][pre_ind + 1] != -1:
-        #         return dp[ind][pre_ind + 1]
+        #     # Option 1: Do not take the current element
+        #     notTake = 0 + memoization(ind + 1, prev_ind)
 
-        #     not_take = helper(ind + 1, pre_ind)
-
+        #     # Take the current element 
         #     take = 0
-        #     if pre_ind == -1 or nums[ind] > nums[pre_ind]:
-        #         take = 1 + helper(ind + 1, ind)
-            
-        #     dp[ind][pre_ind + 1] = max(take, not_take)
+        #     # If it is the first element or if it's larger than the current element
+        #     if prev_ind == -1 or nums[ind] > nums[prev_ind]:
+        #         take = 1 + memoization(ind + 1, ind)
 
-        #     return dp[ind][pre_ind + 1]
-        # return helper(0, -1)
+        #     # Store the result in the dp array to avoid recomputation    
+        #     dp[ind][prev_ind + 1] = max(take, notTake)
 
-            
-
-
-        ## Recursion
-
-        # def lengthOfLISRecursive(nums, ind, pre_index):
-        #     if ind >= len(nums):
-        #         return 0
-            
-        #     not_take = lengthOfLISRecursive(nums, ind + 1, pre_index)
-
-        #     take = 0
-        #     if pre_index == -1 or nums[ind] > nums[pre_index]:
-        #         take = 1 + lengthOfLISRecursive(nums, ind + 1, ind)
-        #     return max(take, not_take)
-
-        # return lengthOfLISRecursive(nums, 0, -1)
-            
-        ## Brute Force
-
-        # def is_increasing_subsequence(sub_seq):
-        #     n = len(sub_seq)
-        #     return all(sub_seq[i] < sub_seq[i + 1] for i in range(n - 1))
+        #     return dp[ind][prev_ind + 1]
         
-        # longest = 0
-        # for length in range(1, len(nums) + 1):
-        #     for sub_seq in combinations(nums, length):
-        #         if is_increasing_subsequence(sub_seq):
-        #             longest = max(longest, len(sub_seq))
-        # return longest
+        # # Start recursion with index 0 and no previous element selected (Hence, previous index = -1)
+        # return memoization(0, -1)
 
-        
-
+        # # TC: O(2 ** n)
+        # # SC: O(n * n) + O(n)
