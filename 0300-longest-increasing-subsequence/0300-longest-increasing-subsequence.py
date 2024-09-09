@@ -1,27 +1,47 @@
 from itertools import combinations
+import bisect
 
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        # Space Optimization
-
+        # Binary Search 
         n = len(nums)
-        ahead = [0] * (n + 1)
-        curr = [0] * (n + 1)
 
-        for ind in range(n -1, -1, -1):
-            for prev_ind in range(n - 1, -2, -1):
-                notTake = 0 + ahead[prev_ind + 1]
+        temp = [nums[0]]
+        length = 1
 
-                take = 0
-                if prev_ind == -1 or nums[ind] > nums[prev_ind]:
-                    take = 1 + ahead[ind + 1]
+        for i in range(1, n):
+            if nums[i] > temp[-1]:
+                temp.append(nums[i])
+                length += 1
+            else:
+                index = bisect.bisect_left(temp, nums[i])
+                temp[index] = nums[i]
+
+        return length
+
+        # TC: O(n log n)
+        # SC: O(1)
+
+        # # Space Optimization
+
+        # n = len(nums)
+        # ahead = [0] * (n + 1)
+        # curr = [0] * (n + 1)
+
+        # for ind in range(n -1, -1, -1):
+        #     for prev_ind in range(n - 1, -2, -1):
+        #         notTake = 0 + ahead[prev_ind + 1]
+
+        #         take = 0
+        #         if prev_ind == -1 or nums[ind] > nums[prev_ind]:
+        #             take = 1 + ahead[ind + 1]
                 
-                curr[prev_ind + 1] = max(take, notTake)
-            ahead = curr
-        return ahead[0]
+        #         curr[prev_ind + 1] = max(take, notTake)
+        #     ahead = curr
+        # return ahead[0]
 
-        # TC: O(n * n)
-        # SC: O(n)
+        # # TC: O(n * n)
+        # # SC: O(n)
 
         # # Tabulation
 
