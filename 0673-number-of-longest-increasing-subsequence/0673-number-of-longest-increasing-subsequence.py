@@ -16,6 +16,7 @@ class Solution:
                         count[ind] = count[prev_ind] # Inherit
                     elif dp[prev_ind] + 1 == dp[ind]:
                         count[ind] += count[prev_ind] # Increase the count
+        
         max_length = max(dp)
 
         max_count = sum(count[ind] for ind in range(n) if dp[ind] == max_length)
