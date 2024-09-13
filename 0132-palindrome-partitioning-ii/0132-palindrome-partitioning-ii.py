@@ -1,31 +1,29 @@
 class Solution:
     def minCut(self, s: str) -> int:
         n = len(s)
-        
-        # Initialize the is_palindrome table
-        is_palindrome = [[False] * n for _ in range(n)]
-        
+
+        palindrome = [[False] * n for _ in range(n)]
+
         for i in range(n):
-            is_palindrome[i][i] = True  # Single character is always a palindrome
-        for length in range(2, n + 1):  # length of substring
+            palindrome[i][i] = True
+
+        for length in range(2, n + 1):
             for i in range(n - length + 1):
                 j = i + length - 1
-                if s[i] == s[j]:
+                if s[i] == s[j] :
                     if length == 2:
-                        is_palindrome[i][j] = True
+                        palindrome[i][j] = True
                     else:
-                        is_palindrome[i][j] = is_palindrome[i + 1][j - 1]
-        
-        # Initialize the dp array
+                        palindrome[i][j] = palindrome[i + 1][j - 1]
+
         dp = [float('inf')] * n
         for i in range(n):
-            if is_palindrome[0][i]:
+            if palindrome[0][i]:
                 dp[i] = 0
             else:
                 for j in range(i):
-                    if is_palindrome[j + 1][i]:
+                    if palindrome[j + 1][i]:
                         dp[i] = min(dp[i], dp[j] + 1)
-        
         return dp[n - 1]
 
         # # Tabulation
