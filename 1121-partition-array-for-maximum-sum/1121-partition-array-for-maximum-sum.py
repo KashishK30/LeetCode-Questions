@@ -14,7 +14,7 @@ class Solution:
             dp[ind] = max_sum
         return dp[0]
 
-        # TC: O(n * n)
+        # TC: O(n * k)
         # SC: O(n)
 
 
@@ -38,7 +38,7 @@ class Solution:
         #     dp[ind] = max_sum
         #     return dp[ind]
 
-        # # TC: O(n * n)
+        # # TC: O(n * k)
         # # SC: O(n) + O(n) [Auxiliary stack space]
 
         return memoization(0)
