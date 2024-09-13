@@ -228,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0132-palindrome-partitioning-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0132-palindrome-partitioning-ii) |
 | [0152-maximum-product-subarray](https://github.com/KashishK30/LeetCode-Questions/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/KashishK30/LeetCode-Questions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/KashishK30/LeetCode-Questions/tree/master/0198-house-robber) |
@@ -287,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0072-edit-distance](https://github.com/KashishK30/LeetCode-Questions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/KashishK30/LeetCode-Questions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/KashishK30/LeetCode-Questions/tree/master/0127-word-ladder) |
+| [0132-palindrome-partitioning-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0132-palindrome-partitioning-ii) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/KashishK30/LeetCode-Questions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/KashishK30/LeetCode-Questions/tree/master/0402-remove-k-digits) |
 | [0516-longest-palindromic-subsequence](https://github.com/KashishK30/LeetCode-Questions/tree/master/0516-longest-palindromic-subsequence) |
