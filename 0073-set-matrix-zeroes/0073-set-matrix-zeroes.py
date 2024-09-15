@@ -39,7 +39,10 @@ class Solution:
             for i in range(m):
                 matrix[i][0] = 0
 
-        return matrix    
+        return matrix   
+
+        # TC: O(2(m * n))
+        # SC: O(1)
         
 
 
