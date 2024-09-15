@@ -26,3 +26,10 @@ class Solution:
     
         return nums
 
+        # TC: 
+        # Step 1: Finding the largest k O(n)
+        # Step 2: Finding the largest n O(n)
+        # Step 3: Swapping and reversing O(n)
+        # Overall TC: O(n)
+
+        # SC: O(1) 
