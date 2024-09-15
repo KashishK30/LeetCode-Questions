@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/KashishK30/LeetCode-Questions/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/KashishK30/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0045-jump-game-ii) |
@@ -483,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/KashishK30/LeetCode-Questions/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/KashishK30/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/KashishK30/LeetCode-Questions/tree/master/0653-two-sum-iv-input-is-a-bst) |
