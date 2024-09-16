@@ -17,6 +17,11 @@ class Solution:
                 ans[-1][1] = max(ans[-1][1], interval[1])
         return ans
 
-    # TC: O(n)
-    # SC: O(1)
+    # TC: O(n * log n)
+    # Sorting: O(n * log n) uses tim sort
+    # Merging: O(n)
+
+    # SC: O(n)
+    # Auxiliary Space for Sorting: O(1) sorting in place
+    # Additional space for result: O(n)
 
