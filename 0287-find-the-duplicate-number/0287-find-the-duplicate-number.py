@@ -33,3 +33,10 @@ class Solution:
         # When finder meets tortise, it is at the start of the cycle
         # which corresponds to the duplicate number
         return finder
+
+    # TC: 
+    # Finding the intersection point: O(n)
+    # Finding the entrance of a cycle: O(n)
+    # Overall TC: O(n)
+
+    # SC: O(1)
