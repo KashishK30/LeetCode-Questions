@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/KashishK30/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/KashishK30/LeetCode-Questions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/KashishK30/LeetCode-Questions/tree/master/0368-largest-divisible-subset) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/KashishK30/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0045-jump-game-ii) |
+| [0048-rotate-image](https://github.com/KashishK30/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/KashishK30/LeetCode-Questions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/KashishK30/LeetCode-Questions/tree/master/0056-merge-intervals) |
@@ -191,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/KashishK30/LeetCode-Questions/tree/master/0048-rotate-image) |
 | [0063-unique-paths-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/KashishK30/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
