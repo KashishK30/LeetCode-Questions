@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1642-water-bottles](https://github.com/KashishK30/LeetCode-Questions/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/KashishK30/LeetCode-Questions/tree/master/2645-pass-the-pillow) |
+| [3227-find-missing-and-repeated-values](https://github.com/KashishK30/LeetCode-Questions/tree/master/3227-find-missing-and-repeated-values) |
 ## Simulation
 |  |
 | ------- |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/KashishK30/LeetCode-Questions/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/KashishK30/LeetCode-Questions/tree/master/2727-number-of-senior-citizens) |
 | [2846-robot-collisions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2846-robot-collisions) |
+| [3227-find-missing-and-repeated-values](https://github.com/KashishK30/LeetCode-Questions/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Matrix
 |  |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KashishK30/LeetCode-Questions/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1753-path-with-minimum-effort](https://github.com/KashishK30/LeetCode-Questions/tree/master/1753-path-with-minimum-effort) |
 | [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
+| [3227-find-missing-and-repeated-values](https://github.com/KashishK30/LeetCode-Questions/tree/master/3227-find-missing-and-repeated-values) |
 ## Recursion
 |  |
 | ------- |
@@ -300,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/KashishK30/LeetCode-Questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/KashishK30/LeetCode-Questions/tree/master/2502-sort-the-people) |
+| [3227-find-missing-and-repeated-values](https://github.com/KashishK30/LeetCode-Questions/tree/master/3227-find-missing-and-repeated-values) |
 ## String
 |  |
 | ------- |
