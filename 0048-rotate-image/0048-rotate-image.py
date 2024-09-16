@@ -18,5 +18,6 @@ class Solution:
         
     # TC: O(n * n) for transposing
     # O(n * n) for reversing
+    # Overall TC: O(n * n)
 
     # SC: O(1)
