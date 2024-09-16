@@ -2,12 +2,12 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
     # Optimal
         n = len(prices)
-        min_before = prices[0]
+        min_before = float('inf')
         max_profit = 0
 
-        for i in range(1, n):
-            min_before = min(prices[i - 1], min_before)
-            max_profit = max(max_profit, prices[i] - min_before)
+        for price in prices:
+            min_before = min(price, min_before)
+            max_profit = max(max_profit, price - min_before)
         return max_profit
         
 
