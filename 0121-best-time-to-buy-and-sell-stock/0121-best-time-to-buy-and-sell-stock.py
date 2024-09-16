@@ -9,7 +9,8 @@ class Solution:
             min_before = min(price, min_before)
             max_profit = max(max_profit, price - min_before)
         return max_profit
-        
+    # TC: O(n) min and max take O(1) time complexity
+    # SC: O(1)
 
 
     # BRUTE FORCE
