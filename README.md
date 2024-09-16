@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/KashishK30/LeetCode-Questions/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/KashishK30/LeetCode-Questions/tree/master/0213-house-robber-ii) |
 | [0239-sliding-window-maximum](https://github.com/KashishK30/LeetCode-Questions/tree/master/0239-sliding-window-maximum) |
+| [0287-find-the-duplicate-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/KashishK30/LeetCode-Questions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/KashishK30/LeetCode-Questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/KashishK30/LeetCode-Questions/tree/master/0312-burst-balloons) |
@@ -357,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/KashishK30/LeetCode-Questions/tree/master/0300-longest-increasing-subsequence) |
 | [0540-single-element-in-a-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/KashishK30/LeetCode-Questions/tree/master/0907-koko-eating-bananas) |
@@ -399,6 +401,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0078-subsets](https://github.com/KashishK30/LeetCode-Questions/tree/master/0078-subsets) |
+| [0287-find-the-duplicate-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0476-number-complement](https://github.com/KashishK30/LeetCode-Questions/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/KashishK30/LeetCode-Questions/tree/master/1435-xor-queries-of-a-subarray) |
 ## Memoization
@@ -501,6 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/KashishK30/LeetCode-Questions/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/KashishK30/LeetCode-Questions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0088-merge-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/KashishK30/LeetCode-Questions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1129-longest-string-chain](https://github.com/KashishK30/LeetCode-Questions/tree/master/1129-longest-string-chain) |
