@@ -18,3 +18,6 @@ class Solution:
         min_diff = min(min_diff, circular_diff)
 
         return min_diff
+
+        # TC: O(n log(n))
+        # SC: O(1)
