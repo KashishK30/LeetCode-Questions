@@ -88,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/KashishK30/LeetCode-Questions/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/KashishK30/LeetCode-Questions/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/KashishK30/LeetCode-Questions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/KashishK30/LeetCode-Questions/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/KashishK30/LeetCode-Questions/tree/master/0368-largest-divisible-subset) |
@@ -221,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/KashishK30/LeetCode-Questions/tree/master/0044-wildcard-matching) |
+| [0050-powx-n](https://github.com/KashishK30/LeetCode-Questions/tree/master/0050-powx-n) |
 | [1013-fibonacci-number](https://github.com/KashishK30/LeetCode-Questions/tree/master/1013-fibonacci-number) |
 | [1197-parsing-a-boolean-expression](https://github.com/KashishK30/LeetCode-Questions/tree/master/1197-parsing-a-boolean-expression) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/KashishK30/LeetCode-Questions/tree/master/1951-find-the-winner-of-the-circular-game) |
