@@ -1,25 +1,57 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-    # Optimal Solution
-    # Strt from top-right
-    # If the current element is smaller than the target, move down
-    # If the current element is greter than the target, move left
+    # Optimal Approach 
+    
+    # mid // n: row index in 2D matrix
+    # mid % n: col index in 2D matrix
+
+        if not matrix or not matrix[0]:
+            return False
+        
         m = len(matrix)
         n = len(matrix[0])
 
-        row = 0
-        col = n - 1
+        if matrix[m - 1][n - 1] < target:
+            return False
 
-        while row < m and col >= 0:
+        l = 0
+        r = m * n - 1
+
+        while l <= r:
+            mid = (l + r) // 2
+            row = mid // n
+            col = mid % n
             if matrix[row][col] == target:
                 return True
             elif matrix[row][col] < target:
-                row += 1
+                l = mid + 1
             else:
-                col -= 1
+                r = mid - 1
         return False
-    # TC: O(m + n) we move either left or down, i the worst case we will move (m + n) times
+    # TC: O(log(m * n))
     # SC: O(1)
+            
+
+    # # Optimal Solution
+    # # Start from top-right
+    # # If the current element is smaller than the target, move down
+    # # If the current element is greter than the target, move left
+    #     m = len(matrix)
+    #     n = len(matrix[0])
+
+    #     row = 0
+    #     col = n - 1
+
+    #     while row < m and col >= 0:
+    #         if matrix[row][col] == target:
+    #             return True
+    #         elif matrix[row][col] < target:
+    #             row += 1
+    #         else:
+    #             col -= 1
+    #     return False
+    # # TC: O(m + n) we move either left or down, i the worst case we will move (m + n) times
+    # # SC: O(1)
     
     
     #     m = len(matrix)
