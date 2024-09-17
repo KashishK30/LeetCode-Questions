@@ -1,14 +1,25 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
     # SPACE OPTIMIZATION
-        curr = [1] * n
-        prev = [1] * n
-
+        dp = [1] * n
         for i in range(1, m):
             for j in range(1, n):
-                curr[j] = prev[j] + curr[j - 1]
-            curr, prev = prev, curr
-        return  prev[n - 1]
+                dp[j] = dp[j] + dp[j - 1]
+        return dp[-1]
+    # TC: O(m * n)
+    # SC: O(n)
+
+    # # SPACE OPTIMIZATION
+    #     curr = [1] * n
+    #     prev = [1] * n
+
+    #     for i in range(1, m):
+    #         for j in range(1, n):
+    #             curr[j] = prev[j] + curr[j - 1]
+    #         curr, prev = prev, curr
+    #     return  prev[n - 1]
+    # # TC: O(m * n)
+    # # SC: O(n)
 
     # # TABULATION
     #     dp = [[0 for _ in range(n)] for _ in range(m)]
