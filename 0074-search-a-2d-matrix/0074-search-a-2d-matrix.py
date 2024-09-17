@@ -6,6 +6,8 @@ class Solution:
         if target > matrix[m - 1][n - 1] or target < matrix[0][0]:
             return False
         
+    # BINARY SEARCH
+
         def find(row, target):
             if row >= m:
                 return False
@@ -26,3 +28,6 @@ class Solution:
                     r = mid - 1
             return False
         return find(0, target)
+    
+    # TC: O(m * log(n)) m rows and binary search on each row in worst case
+    # SC: O(1) space complexity is minimal, less that O(m) for recursive depth
