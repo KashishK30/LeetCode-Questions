@@ -138,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0135-candy](https://github.com/KashishK30/LeetCode-Questions/tree/master/0135-candy) |
 | [0152-maximum-product-subarray](https://github.com/KashishK30/LeetCode-Questions/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0169-majority-element](https://github.com/KashishK30/LeetCode-Questions/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/KashishK30/LeetCode-Questions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/KashishK30/LeetCode-Questions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/KashishK30/LeetCode-Questions/tree/master/0200-number-of-islands) |
@@ -296,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/KashishK30/LeetCode-Questions/tree/master/0073-set-matrix-zeroes) |
 | [0127-word-ladder](https://github.com/KashishK30/LeetCode-Questions/tree/master/0127-word-ladder) |
 | [0133-clone-graph](https://github.com/KashishK30/LeetCode-Questions/tree/master/0133-clone-graph) |
+| [0169-majority-element](https://github.com/KashishK30/LeetCode-Questions/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/KashishK30/LeetCode-Questions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0726-number-of-atoms](https://github.com/KashishK30/LeetCode-Questions/tree/master/0726-number-of-atoms) |
@@ -446,6 +448,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/KashishK30/LeetCode-Questions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/KashishK30/LeetCode-Questions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/KashishK30/LeetCode-Questions/tree/master/0169-majority-element) |
 | [0368-largest-divisible-subset](https://github.com/KashishK30/LeetCode-Questions/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/KashishK30/LeetCode-Questions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/KashishK30/LeetCode-Questions/tree/master/0455-assign-cookies) |
@@ -523,6 +526,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/KashishK30/LeetCode-Questions/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/KashishK30/LeetCode-Questions/tree/master/0169-majority-element) |
 | [0948-sort-an-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0948-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -547,6 +551,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting Sort
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/KashishK30/LeetCode-Questions/tree/master/0169-majority-element) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/KashishK30/LeetCode-Questions/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/KashishK30/LeetCode-Questions/tree/master/0948-sort-an-array) |
 ## Monotonic Stack
