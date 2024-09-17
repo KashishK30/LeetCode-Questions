@@ -3,18 +3,23 @@ from typing import List
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-    # Boyer-Moore Voting Algorithm
-        candidate = None
-        count = 0
-
-        for num in nums:
-            if count == 0:
-                candidate = num
-            count += (1 if candidate == num else -1)
-        
-        return candidate
-    # TC: O(n)
+        nums.sort()
+        return nums[len(nums) //2]
+    # TC: O(n * log n)
     # SC: O(1)
+
+    # # Boyer-Moore Voting Algorithm
+    #     candidate = None
+    #     count = 0
+
+    #     for num in nums:
+    #         if count == 0:
+    #             candidate = num
+    #         count += (1 if candidate == num else -1)
+        
+    #     return candidate
+    # # TC: O(n)
+    # # SC: O(1)
 
     # # BRUTE FORCE
     #     numbers = Counter(nums)
