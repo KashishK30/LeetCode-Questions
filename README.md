@@ -201,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2472-build-a-matrix-with-conditions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2472-build-a-matrix-with-conditions) |
 | [2502-sort-the-people](https://github.com/KashishK30/LeetCode-Questions/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/KashishK30/LeetCode-Questions/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/KashishK30/LeetCode-Questions/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2846-robot-collisions) |
 | [3227-find-missing-and-repeated-values](https://github.com/KashishK30/LeetCode-Questions/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -297,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/KashishK30/LeetCode-Questions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/KashishK30/LeetCode-Questions/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/KashishK30/LeetCode-Questions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2755-extra-characters-in-a-string](https://github.com/KashishK30/LeetCode-Questions/tree/master/2755-extra-characters-in-a-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -321,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/KashishK30/LeetCode-Questions/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/KashishK30/LeetCode-Questions/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/KashishK30/LeetCode-Questions/tree/master/2502-sort-the-people) |
+| [2755-extra-characters-in-a-string](https://github.com/KashishK30/LeetCode-Questions/tree/master/2755-extra-characters-in-a-string) |
 | [3227-find-missing-and-repeated-values](https://github.com/KashishK30/LeetCode-Questions/tree/master/3227-find-missing-and-repeated-values) |
 ## String
 |  |
@@ -354,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/KashishK30/LeetCode-Questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/KashishK30/LeetCode-Questions/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/KashishK30/LeetCode-Questions/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/KashishK30/LeetCode-Questions/tree/master/2755-extra-characters-in-a-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/KashishK30/LeetCode-Questions/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Stack
 |  |
@@ -636,4 +640,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/KashishK30/LeetCode-Questions/tree/master/0386-lexicographical-numbers) |
+| [2755-extra-characters-in-a-string](https://github.com/KashishK30/LeetCode-Questions/tree/master/2755-extra-characters-in-a-string) |
 <!---LeetCode Topics End-->
